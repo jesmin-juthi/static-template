@@ -1,0 +1,41 @@
+/* responsive css */
+/* checking size : 1000px */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .area{
+        width: 970px;
+    }
+    .menu{
+        width: 650px;
+    }
+    .single-service{
+        width: 303px;
+    }
+    .about-left{
+        width: 685px;
+    }
+    .about-right{
+        width: 255px;
+    }
+    .about-left h4, .about-right h4{
+        font-size: 26px;
+    }
+}
+
+/* checking size : 800px */
+
+@media only screen and (max-width: 768px) and (max-width: 991px) {
+    .area{
+        width: 750px;
+    }
+    .logo{
+        width: 180px;
+    }
+    .menu{
+        width: 500px;
+    }
+    .single-service{
+        width: 240px;
+        margin-right: 15px;
+    }
+}
